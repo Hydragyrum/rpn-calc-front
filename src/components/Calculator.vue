@@ -21,7 +21,7 @@
         <button id="btn-eight" class="btn-eight" @click="clicked(8)">8</button>
         <button id="btn-nine" class="btn-nine" @click="clicked(9)">9</button>
         <button id="btn-dot" class="btn-dot" @click="clicked('.')">.</button>
-        <button id="btn-pos-neg" class="btn-pos-neg" @click="clicked(' ')">Enter</button>
+        <button id="btn-enter" class="btn-enter" @click="clicked(' ')">Enter</button>
       </div>
     </div>
   </div>
@@ -251,7 +251,7 @@ button:active {
   grid-column: 3;
 }
 
-.btn-pos-neg {
+.btn-enter {
   grid-row: 2;
   grid-column: 3;
 }
